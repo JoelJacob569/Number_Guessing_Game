@@ -17,6 +17,7 @@ A simple and interactive number guessing game built with Python. The computer ra
 ## Installation
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/JoelJacob569/Number_Guessing_Game.git
 cd Number_Guessing_Game
@@ -27,11 +28,13 @@ cd Number_Guessing_Game
 ## Usage
 
 Run the game using Python:
+
 ```bash
 python numbergame.py
 ```
 
 Then follow the on-screen prompts:
+
 1. The game will tell you it has selected a number between 1 and 100
 2. Enter your guess when prompted
 3. The game will tell you if your guess is too low or too high
@@ -39,6 +42,7 @@ Then follow the on-screen prompts:
 5. Once you guess correctly, the game displays your total number of attempts
 
 ### Example Gameplay
+
 ```
 Welcome to the Number Game!
 I have selected a random number between 1 and 100.
@@ -54,6 +58,7 @@ Congratulations! You've guessed the number 37 in 3 attempts.
 ## How It Works
 
 The game uses the following logic:
+
 - Generates a random integer between 1 and 100
 - Continuously prompts the user for guesses until the correct number is found
 - Compares each guess to the target number and provides feedback
@@ -63,10 +68,6 @@ The game uses the following logic:
 ## Try It Out!
 
 Test your guessing skills and see how few attempts it takes you to find the number. Can you beat your personal record?
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Author
 
